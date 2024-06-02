@@ -16,7 +16,7 @@
 Frontend 
 
 ## Deplolyed App
-   
+   https://figma-project-mock-axbc95sth-supriya-hateles-projects.vercel.app/
     
 ## Technologies Used
 
