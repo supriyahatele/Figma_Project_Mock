@@ -4,14 +4,8 @@
 <img src="" width="150px">
 
 ## Introduction
+ This repository showcases the creation of a web application thoughtfully designed based on a provided Figma prototype.
  
-
-## Team Members
-
--  [Supriya Hatele] 
-   
-       
-
 ## Project Type
 Frontend 
 
@@ -25,6 +19,7 @@ Frontend
   - CSS
   - JavaScript
   - React.js
+  - Tailwind.css
 
 
 ## Directory Structure
