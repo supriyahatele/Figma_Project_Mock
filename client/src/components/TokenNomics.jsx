@@ -17,11 +17,11 @@ const TokenNomics = () => {
         </p>
       </div>
 
-      <button className="w-[244px] h-[70px]  rounded-[20px] text-[#FFFFFF] absolute lg:left-[168px] lg:top-[2260px] sm:left-[660px] sm:top-[130px] bg-[#ED0137] font-shojumaru text-[18px] font-normal leading-[23.84px] scale-on-hover">
+      <button className="w-[244px] h-[70px]  rounded-[20px] text-[#FFFFFF] absolute lg:left-[168px] lg:top-[2460px] sm:left-[660px] sm:top-[130px] bg-[#ED0137] font-shojumaru text-[18px] font-normal leading-[23.84px] scale-on-hover">
         Token Details
       </button>
       
-      <div className="w-[412px] h-[306px] border border-solid border-[#ED0137] border-[1.5px] rounded-[20px] flex justify-around absolute lg:top-[2300px] lg:left-[90px] sm:left-[590px] sm:top-[170px] text-[#FFFFFF] ">
+      <div className="w-[412px] h-[306px] border border-solid border-[#ED0137] border-[1.5px] rounded-[20px] flex justify-around absolute lg:top-[2500px] lg:left-[90px] sm:left-[590px] sm:top-[170px] text-[#FFFFFF] ">
         <div className="flex flex-col justify-evenly">
           <p className="font-zcool text-[20px] font-normal leading-[20px] scale-on-hover shine">Name</p>
           <p className="font-zcool text-[20px] font-normal leading-[20px] scale-on-hover shine">Symbol</p>
@@ -36,7 +36,7 @@ const TokenNomics = () => {
         </div>
       </div>
 
-      <img className="lg:w-[943px] lg:h-[350px] sm:w-[400px] sm:h-[250px] absolute lg:left-[530px] lg:top-[2300px] sm:left-[590px] sm:top-[540px]" src="../../images/Frame1824.png" alt="" />
+      <img className="lg:w-[943px] lg:h-[350px] sm:w-[400px] sm:h-[250px] absolute lg:left-[530px] lg:top-[2500px] sm:left-[590px] sm:top-[540px]" src="../../images/Frame1824.png" alt="" />
     </div>
   );
 };
