@@ -1,3 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+/* Ensure you add the following to apply the font globally if needed */
+body {
+  font-family: ZCOOL KuaiLe;
+
+  /* font-family: 'Shojumaru', sans-serif; */
+}
+
+.header{
+  /* border: 2px solid red; */
+  width: 1512px;
+height: 588px;
+background-image: url("../img/navbar_background.png");
+
+}
+.navbar{
+  /* border: 2px solid gold; */
+  /* margin-top: 20px; */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+color: white;
+}
+
+.logo{
+    margin: 20px 0px 0px 80px;
+  display: flex;
+  justify-content: center;
+align-items: center;
+/* width: 106px;
+height: 117px; */
+
+
+}
+.logo img{
+width: 106px;
+height: 117px;
+
+}
+
+.logo h1{
+margin-top: -25px;
+  width: 122px;
+  height: 32px;
+  font-family: ZCOOL KuaiLe;
+font-size: 30px;
+font-weight: 400;
+line-height: 32px;
+/* text-align: center; */
+
+    
+  }
+
+  .link-navbar{
+    margin-top: 45px;
+    /* margin-right: 50px; */
+    width: 583px;
+    height: 52px;
+    padding: 12px 12px 8px 12px;
+    gap: 24px;
+    border-radius: 20px;
+    background: #191818;
+
+    
+
+  }
+  .link-navbar ul {
+display: flex;
+justify-content: space-around;
+  }
+  
+.wallet{
+  margin-top: 53px;
+  margin-right: 100px;
+  width: 127px;
+height: 38px;
+padding: px ;
+font-family: 'Poppins';
+border-radius: 15.44px;
+font-size: 12px;
+font-weight: 600;
+line-height: 18px;
+background: linear-gradient(93.73deg, #ED0137 20.19%, #F05733 88.3%);
+
+}
+
+.header-content{
+  margin-top: 140px;
+display: flex;
+justify-content: center;
+align-items: center;
+color:rgba(251, 246, 246, 1);
+}
+.header-content p{
+font-size: 45px;
+font-weight: 400;
+line-height: 53.55px;
+font-family: 'Shojumaru';
+
+text-align: center;
+
+  width: 1262px;
+height: 108px;
+
+}
+
+
+
+
+
+
+
 
 @tailwind base;
 @tailwind components;
