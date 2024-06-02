@@ -24,8 +24,11 @@ Frontend
 
 ## Features
 1.Scroll Animations & Transitions: Integrating smooth scroll animations and transitions to enhance user experience.
+
 2.Card Animations: Adding dynamic card animations to create engaging interactive elements.
+
 3.Responsiveness: Ensuring the application is fully responsive for optimal user experience across various devices and screen sizes.
+
 4.Countdown Timer: Implementing a countdown timer to support time-sensitive features or events within the application.
 
 
