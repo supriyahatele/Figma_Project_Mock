@@ -1,0 +1,16 @@
+@keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: You can add a subtle vertical slide effect */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fade-in 1s ease-out forwards;
+  }
+
+  

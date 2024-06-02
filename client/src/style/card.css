@@ -1,0 +1,31 @@
+/* card.css */
+
+.card-width {
+    width: 237.06px;
+  }
+  
+  .card-height {
+    height: 349px;
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .card-container {
+    transition: transform 0.3s ease;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.1);
+  }
+  

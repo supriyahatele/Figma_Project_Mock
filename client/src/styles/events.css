@@ -1,0 +1,293 @@
+.event-container {
+    padding: 20px;
+    /* border: 2px solid blue; */
+    background-image: url("../../images/div_3_backgroud.png");
+    width: 1512px;
+    height: 1145px;
+    background-size: cover;
+    position: relative;
+}
+
+.event-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+/* Ensuring content inside the event container is above the overlay */
+.event-container > * {
+    position: relative;
+    z-index: 2;
+}
+
+.event-container h1{
+    /* width: 823px; */
+height: 54px;
+font-family: Shojumaru;
+font-size: 40.92px;
+font-weight: 400;
+line-height: 54.19px;
+text-align: center;
+color: rgba(237, 1, 55, 1);
+/* margin-top: 20px; */
+padding: 10px;
+margin-top: 20px;
+}
+
+.event-mainContainer{
+    margin-top: 35px;
+    height: 850px;
+    color: white;
+    padding: 10px;
+    /* border: 2px solid white; */
+    display: flex;
+}
+
+.event-leftContainer{
+    /* border: 2px solid red; */
+    padding: 10px;
+    width: 40%;
+    height: 100%;
+}
+.event-leftContainer p{
+  width: 539px;
+height: 111px;
+font-family: ZCOOL KuaiLe;
+font-size: 20.92px;
+font-weight: 400;
+line-height: 36.51px;
+text-align: center;
+
+}
+.event-leftContainer  .event-btn1{
+
+    width: 244px;
+height: 70px;
+margin-left: 170px;
+margin-top: 24px;
+position: absolute;
+
+border-radius: 20px;
+background: rgba(237, 1, 55, 1);
+
+  }
+
+  .event-leftContainer .small-container {
+    width: 412px;
+margin-top: 60px;
+    height: 382px;
+    margin-left: 80px;
+    border-radius: 20px ;
+    background: rgba(13, 13, 13, 0.45);
+    border: 2px solid rgb(209, 85, 39)
+    /* border-image-source: linear-gradient(132.77deg, #EF490F 2.13%, #DA0909 98.39%); */
+
+  }
+
+  .innerSmall-container{
+    margin-top: 20px;
+    padding: 10px;
+    margin-right: -40px;
+    display: flex;
+    flex-direction: row;
+height: 100%;
+  }
+  .innerSmall-container .left-smallContainer {
+  width: 200px;
+  height: 100%;
+}
+.innerSmall-container .left-smallContainer div{
+font-size: 20px;
+font-weight: 600;
+padding: 15px;
+}
+  .innerSmall-container .left-rightContainer{
+    width: 200px;
+    height: 100%;
+
+}
+.innerSmall-container .left-rightContainer div{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 22px;
+    color: rgba(237, 1, 55, 1);
+}
+
+  .event-leftContainer  .event-btn2{
+    width: 138.49px;
+    height:39.2px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 215px;
+    border-radius: 20px;
+    background: linear-gradient(93.73deg, #D51B46 10.19%, #EE6910 98.19%);
+
+    
+
+  }
+  .event-leftContainer  h2 {
+    margin-top: 25px;
+
+    width: 547px;
+    height: 74px;
+    font-family: Shojumaru;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37.08px;
+    text-align: center;
+    color: rgba(237, 1, 55, 1);
+        
+  }
+  .event-leftContainer .search-container {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+  
+  .event-leftContainer input[type="search"] {
+    border: 2px solid rgba(196, 17, 12, 1);
+    width: 380px; /* Adjust width to accommodate the button */
+    height: 48px;
+    border-radius: 20px 0 0 20px; /* Rounded corners on the left side */
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+  }
+  
+  .event-leftContainer .generate-btn {
+    height: 48px;
+    border: 2px solid rgba(196, 17, 12, 1);
+    border-left: none; /* Remove the border between the input and button */
+    border-radius: 0 20px 20px 0; /* Rounded corners on the right side */
+    background-color: rgba(196, 17, 12, 1);
+    color: white;
+    padding: 0 20px;
+    cursor: pointer;
+  }
+
+
+
+
+.event-rightContainer{
+    /* border: 2px solid red; */
+    padding: 10px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.event-rightContainer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .event-rightContainer .container .countdown {
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 45px;
+    height: 67px;
+    border-radius: 20px;
+    width: 152px;
+    background-color: rgb(19, 14, 14);
+    position: absolute;
+    top:40px;
+    color: rgba(196, 17, 12, 1);
+  }
+  
+  .presale-info {
+
+
+/* border: 2px solid orangered; */
+    border: 2px solid rgb(209, 85, 39);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+
+    width: 708px;
+height: 700px;
+
+  }
+  
+  .presale-info h1 {
+margin-top: 55px;
+padding: 0px 10px;
+height: 64px;
+font-family: Shojumaru;
+font-size: 48px;
+font-weight: 400;
+line-height: 63.56px;
+text-align: center;
+color: rgba(237, 1, 55, 1);
+
+  }
+  
+  .presale-info div{
+    margin-top: 20px;
+    height: 200px;
+
+  }
+  .presale-info p {
+
+    font-family: ZCOOL KuaiLe;
+font-size: 30px;
+font-weight: 400;
+line-height: 50px;
+text-align: center;
+
+
+      }
+  
+  form input {
+    width: 500px;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+    height: 48px;
+    border-radius: 20px ;
+    border: 2px solid rgba(196, 17, 12, 1);
+      }
+  
+      form .buttons {
+        margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .buy {
+    width: 80.58px;
+    height: 45px;
+    padding: 10px 21.29px 14px 21.29px;
+    background: linear-gradient(93.73deg, #D51B46 10.19%, #EE6910 98.19%);
+
+      }
+  
+  .claim-drop {
+    width: 131.58px;
+    height: 45px;
+    top: 654px;
+    left: 343px;
+    padding: 10px 21.29px 14px 21.29px;
+    opacity: 0px;
+    background: linear-gradient(93.73deg, #D51B46 10.19%, #EE6910 98.19%);
+    
+      }
