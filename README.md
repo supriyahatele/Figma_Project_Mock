@@ -6,8 +6,8 @@
 ## Project Type
 Frontend 
 
-## Deplolyed App
-   https://figma-project-mock-axbc95sth-supriya-hateles-projects.vercel.app/
+## Deplolyed Link
+  https://saviour-figma-project.vercel.app/
     
 ## Technologies Used
 
